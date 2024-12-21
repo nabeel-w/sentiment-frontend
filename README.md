@@ -1,8 +1,29 @@
-# React + Vite
+## Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Prerequisites
 
-Currently, two official plugins are available:
+-   **Node.js** (v22 or higher)
+-   **npm** (Node Package Manager)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Step 1: Install dependencies
+
+Navigate to the `sentiment-frontend` directory (if you have a separate directory for frontend) and install the required dependencies:
+
+```bash
+npm install
+```
+
+This will install all the necessary dependencies listed in `package.json`.
+
+### Step 2: Start the React development server
+
+Once the dependencies are installed, you can start the React development server with the following command:
+
+```bash
+npm run dev
+```
+
+This will run the React application in development mode. By default, it will be accessible at `http://localhost:5173` in your browser.
+
+
+
