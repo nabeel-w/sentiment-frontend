@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;  /* Stack elements vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center;     /* Center content horizontally */
+  height: 100vh;           /* Set container height to full viewport height */
+  text-align: center;      /* Ensure text is centered in child elements */
+  padding: 20px;           /* Optional: Adds padding around the container */
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;  /* Stack form elements vertically */
+  align-items: center;     /* Center form elements horizontally */
+  gap: 15px;               /* Adds space between form elements */
+  padding: 20px;           /* Add padding inside the form */
+  border: 2px solid #007bff; /* Blue border around the form */
+  border-radius: 8px;      /* Rounded corners for the form */
+  width: 100%;
+  max-width: 400px;        /* Set maximum width of the form */
+  background-color: #f9f9f9; /* Light background color for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.container form h2 {
+  font-size: 1.5rem;        /* Font size for the title */
+  color: #007bff;           /* Blue color for the title */
+  margin-bottom: 20px;      /* Space below the title */
+}
+
+.container label {
+  font-size: 1rem;          /* Font size for the label */
+  margin-bottom: 5px;       /* Space between label and input */
+}
+
+.container input {
+  width: 100%;              /* Make input field take full width */
+  padding: 10px;            /* Add padding inside input */
+  font-size: 1rem;          /* Set font size inside input */
+  border: 1px solid #ccc;   /* Light border around input */
+  border-radius: 4px;       /* Rounded corners for input */
+  box-sizing: border-box;   /* Include padding and border in element's total width */
+}
+
+.container input[type="file"] {
+  padding: 5px;             /* Adjust padding for file input */
+}
+
+.container button {
+  padding: 10px 20px;       /* Add padding to the button */
+  background-color: #007bff; /* Button background color */
+  color: white;             /* Button text color */
+  border: none;             /* Remove button border */
+  border-radius: 4px;       /* Rounded corners for button */
+  cursor: pointer;          /* Change cursor to pointer on hover */
+  font-size: 1rem;           /* Button text font size */
+  width: 100%;               /* Make button take full width */
+  max-width: 200px;          /* Set maximum width for the button */
+}
+
+.container button:hover {
+  background-color: #0056b3; /* Button hover effect */
+}
+
+.container .chart-container {
+  margin-top: 30px;          /* Space between the form and the chart */
+  width: 100%;
+  max-width: 600px;          /* Set maximum width for chart */
+}
